@@ -1,0 +1,43 @@
+<extension id="com.tomecode.showme.password.sqldeveloper" version="1.0.0" esdk-version="2.0"
+           rsbundle-class="com.tomecode.showme.password.sqldeveloper.Res"
+           xmlns="http://jcp.org/jsr/198/extension-manifest">
+  <name>${EXTENSION_NAME}</name>
+  <owner>${EXTENSION_OWNER}</owner>
+  <trigger-hooks xmlns="http://xmlns.oracle.com/ide/extension">
+    <!-- TODO Declare triggering functionality provided by extension: com.tomecode.showme.password.sqldeveloper -->
+    <triggers>
+      <actions xmlns="http://xmlns.oracle.com/jdeveloper/1013/extension">
+        <action id="com.tomecode.showme.password.sqldeveloper.showmepassword">
+          <properties>
+            <property name="Name">Show Me Password</property>
+            <property name="SmallIcon">${OracleIcons.FILE}</property>
+            <property name="LongDescription">ShowMePassword</property>
+          </properties>
+        </action>
+      </actions>
+      <controllers>
+        <controller class="com.tomecode.showme.password.sqldeveloper.ShowMePasswordController">
+          <update-rules>
+            <update-rule rule="always-enabled">
+              <action id="com.tomecode.showme.password.sqldeveloper.showmepassword"/>
+            </update-rule>
+          </update-rules>
+        </controller>
+      </controllers>
+      <menu-hook xmlns="http://jcp.org/jsr/198/extension-manifest">
+        <menus>
+          <menubar id="javax.ide.view.MAIN_WINDOW_MENUBAR_ID">
+            <menu id="javax.ide.FILE_MENU_ID">
+              <section id="showMePassword.customsection">
+                <item action-ref="com.tomecode.showme.password.sqldeveloper.showmepassword"/>
+              </section>
+            </menu>
+          </menubar>
+        </menus>
+      </menu-hook>
+    </triggers>
+  </trigger-hooks>
+  <hooks>
+    <!-- TODO Declare functionality provided by extension: com.tomecode.showme.password.sqldeveloper -->
+  </hooks>
+</extension>
