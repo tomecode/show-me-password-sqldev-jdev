@@ -1,4 +1,4 @@
-More details about the project on you can find on the official web page: ![Show Me Password](http://tomecode.github.io/Show-Me-Password-SqlDev-JDev/)
+More details about the project you can find on the official web page: ![Show Me Password](http://tomecode.github.io/show-me-password-sqldev-jdev)
 
 or 
 
