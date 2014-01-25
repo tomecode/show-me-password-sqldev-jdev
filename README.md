@@ -6,7 +6,7 @@ or
 [Show Me Password](http://show-me-password-sql-developer.googlecode.com/svn/wiki/showMePasswordSqlDeveloper4_win.png)
 
 ###Download and Install
-Download the latest version: [1.0.0](https://github.com/tomecode/Show-Me-Password/releases/download/v1.0.0/ShowMePasswordSQLDeveloper4_v1.0.0.zip) of the extension for Oracle SQL Developer 4.x, to your machine (the extension will be packaged as a zip file - pls. don't unzip the extension;) ).
+Download the latest version: [1.0.0](http://show-me-password-sql-developer.googlecode.com/files/ShowMePasswordSQLDeveloper4_v1.0.0.zip) of the extension for Oracle SQL Developer 4.x, to your machine (the extension willb es packaged as a zip file - pls. don't unzip the extension;) ).
 - In SQL Developer 4 use the help->Check for updates... and instead of choosing from the existing update centers, choose the "Install From Local File" option, and point to the zip file you have downloaded.
 - Restart SQL Developer to complete the extension installation.
 
