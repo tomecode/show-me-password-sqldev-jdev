@@ -1,0 +1,11 @@
+Bundle-ManifestVersion: 2.0
+Bundle-Version: 1.0.0
+Bundle-SymbolicName: com.tomecode.jdev.extension12g.showmepassword
+Bundle-ClassPath: .
+Require-Bundle: oracle.ide,
+ oracle.javatools,
+ oracle.icons,
+ oracle.ide.gallery,
+ oracle.deploy.jpsconfig,
+ oracle.external.jps,
+ oracle.j2ee.jpsconfig

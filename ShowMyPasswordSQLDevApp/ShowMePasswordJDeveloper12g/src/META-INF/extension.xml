@@ -1,0 +1,55 @@
+<extension id="com.tomecode.jdev.extension12g.showmepassword" version="1.0.0" esdk-version="1.0"
+           rsbundle-class="com.tomecode.jdev.extension12g.showmepassword.Res"
+           xmlns="http://jcp.org/jsr/198/extension-manifest">
+    <name>${EXTENSION_NAME}</name>
+    <owner>${EXTENSION_OWNER}</owner>
+    <trigger-hooks xmlns="http://xmlns.oracle.com/ide/extension">
+        <triggers>
+            <gallery xmlns="http://xmlns.oracle.com/jdeveloper/1013/extension">
+                <folders>
+                    <name label="Show Me Passowrd JDeveloper 12g">Show Me Passowrd JDeveloper 12g</name>
+                    <category>General</category>
+                </folders>
+                <item rule="always-enabled">
+                    <name>com.tomecode.jdev.extension12g.showmepassword.ShowMePasswordJdev12gWizard</name>
+                    <id>com.tomecode.jdev.extension12g.showmepassword.ShowMePasswordJdev12gWizard</id>
+                    <description>Sample Wizard from ESDK</description>
+                    <category>General</category>
+                    <folder>Show Me Passowrd JDeveloper 12g</folder>
+                </item>
+            </gallery>
+            <actions xmlns="http://xmlns.oracle.com/jdeveloper/1013/extension">
+                <action id="com.tomecode.jdev.extension12g.showmepassword.jdev12g.invokeAction">
+                    <properties>
+                        <property name="Name">&amp;Show Me Passowrd</property>
+                    </properties>
+                </action>
+            </actions>
+            <controllers xmlns="http://xmlns.oracle.com/ide/extension">
+                <controller class="com.tomecode.jdev.extension12g.showmepassword.ShowMePasswordJdev12gControler">
+                    <update-rules>
+                        <update-rule rule="always-enabled">
+                            <action id="com.tomecode.jdev.extension12g.showmepassword.jdev12g.invokeAction">
+                                <label>Show Me Passowrd</label>
+                            </action>
+                        </update-rule>
+                    </update-rules>
+                </controller>
+            </controllers>
+            <menu-hook xmlns="http://jcp.org/jsr/198/extension-manifest">
+                <menus>
+                    <menubar id="javax.ide.view.MAIN_WINDOW_MENUBAR_ID">
+                        <menu id="javax.ide.FILE_MENU_ID">
+                            <section id="com.tomecode.jdev.extension12g.showmepassword"
+                                     before="javax.ide.NEW_SECTION_ID">
+                                <item action-ref="com.tomecode.jdev.extension12g.showmepassword.jdev12g.invokeAction"></item>
+                            </section>
+                        </menu>
+                    </menubar>
+                </menus>
+            </menu-hook>
+        </triggers>
+    </trigger-hooks>
+    <hooks></hooks>
+</extension>
+
