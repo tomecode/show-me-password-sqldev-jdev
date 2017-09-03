@@ -13,7 +13,7 @@ or
 ### How to use
 If you click menu "Show Me Password", then displays a window that contains a table (with columns: connection name,db host, SID, user name and decrypted (saved) password to database) with list of all stored connections to databases in SQL Developer. 
 
-#### Note: If the extension does not work then remove the folder: system_cache from the application directory: `/SQL Developer/system*/system_cache` e.g.: in windows: `C:\Users\<user>\AppData\Roaming\SQL Developer\system<versonNumber>\system_cache`
+#### Note: If the extension does not work then remove the folder: system_cache from the application directory: `/SQL Developer/system*/system_cache` e.g.: in windows: `C:\Users\<user>\AppData\Roaming\SQL Developer\system<versonNumber>\system_cache` and restart Oracle SQL Developer
 
 
 
@@ -28,7 +28,7 @@ If you click menu "Show Me Password", then displays a window that contains a tab
 ### How to use
 If you click menu "Show Me Password", then displays a window that contains a table (with columns: connection name,db host, SID, user name and decrypted (saved) password to database) with list of all stored connections to databases in SQL Developer. 
 
-#### Note: If the extension does not work then remove the folder: system_cache from the application directory: `/SQL Developer/system*/system_cache` e.g.: in windows: `C:\Users\<user>\AppData\Roaming\SQL Developer\system<versonNumber>\system_cache`
+#### Note: If the extension does not work then remove the folder: system_cache from the application directory: `/SQL Developer/system*/system_cache` e.g.: in windows: `C:\Users\<user>\AppData\Roaming\SQL Developer\system<versonNumber>\system_cache` and restart Oracle SQL Developer
 
 
 
@@ -66,6 +66,3 @@ If you click menu item "File->Show Me Password", then displays a window that con
 
 #### How to Use
 If you click menu item "File->Show Me Password", then displays a window that contains a table (with columns: connection type, connection name, user name and decrypted (saved) password to database) with list of all stored connections in JDeveloper. 
-
-
-## Note: If the extension does not work then remove the folder: system_cache from the application directory: `/SQL Developer/system*/system_cache` e.g.: in windows: `C:\Users\<user>\AppData\Roaming\SQL Developer\system<versonNumber>\system_cache`
