@@ -2,16 +2,33 @@ More details about the project you can find on the official web page: [Show Me P
 
 or 
 
-## Extension for Oracle SQL Developer (version: 4.x)
+## Extension for Oracle SQL Developer (version: 17.x)
 [Show Me Password](http://show-me-password.tomecode.com)
 
 ### Download and Install
-Download the latest version: [1.0.0](http://show-me-password.tomecode.com/) of the extension for Oracle SQL Developer 4.x, to your machine (the extension willb es packaged as a zip file - pls. don't unzip the extension;) ).
-- In SQL Developer 4 use the help->Check for updates... and instead of choosing from the existing update centers, choose the "Install From Local File" option, and point to the zip file you have downloaded.
+- Download the latest version: [1.1.0](https://github.com/tomecode/show-me-password-sqldev-jdev/releases/download/v1.1.0/ShowMePasswordSQLDeveloper4-17_v1.1.0.zip) of the extension for Oracle SQL Developer, to your machine, btw. the extension is packaged as a zip file - pls. don't unzip it.
+- In SQL Developer, use/click to the menu item: Help->Check for updates... and instead of choosing from the existing update centers, choose the "Install From Local File" option, and point to the zip file you have downloaded.
 - Restart SQL Developer to complete the extension installation.
 
 ### How to use
 If you click menu "Show Me Password", then displays a window that contains a table (with columns: connection name,db host, SID, user name and decrypted (saved) password to database) with list of all stored connections to databases in SQL Developer. 
+
+#### Note: If the extension does not work then remove the folder: system_cache from the application directory: `/SQL Developer/system*/system_cache` e.g.: in windows: `C:\Users\<user>\AppData\Roaming\SQL Developer\system<versonNumber>\system_cache`
+
+
+
+## Extension for Oracle SQL Developer (version: 4.x)
+[Show Me Password](http://show-me-password.tomecode.com)
+
+### Download and Install
+- Download the latest version: [1.0.0](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/show-me-password-sql-developer/ShowMePasswordSQLDeveloper4_v1.0.0.zip) of the extension for Oracle SQL Developer, to your machine, btw. the extension is packaged as a zip file - pls. don't unzip it.
+- In SQL Developer, use/click to the menu item: Help->Check for updates... and instead of choosing from the existing update centers, choose the "Install From Local File" option, and point to the zip file you have downloaded.
+- Restart SQL Developer to complete the extension installation.
+
+### How to use
+If you click menu "Show Me Password", then displays a window that contains a table (with columns: connection name,db host, SID, user name and decrypted (saved) password to database) with list of all stored connections to databases in SQL Developer. 
+
+#### Note: If the extension does not work then remove the folder: system_cache from the application directory: `/SQL Developer/system*/system_cache` e.g.: in windows: `C:\Users\<user>\AppData\Roaming\SQL Developer\system<versonNumber>\system_cache`
 
 
 
@@ -19,7 +36,7 @@ If you click menu "Show Me Password", then displays a window that contains a tab
 [Show Me Password](http://show-me-password.tomecode.com)
 
 ### Download and Install
-- Download the latest version: [1.2.0](http://show-me-password.tomecode.com) of the extension for Oracle SQL Developer 3.x to your machine.
+- Download the latest version: [1.2.0](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/show-me-password-sql-developer/showMePassword_bin_1_2.zip) of the extension for Oracle SQL Developer 3.x to your machine.
 - Unzip it and copy JAR file to the $SQL_DEVELOPER_HOME/sqldeveloper/extensions/
 - Restart SQL Developer to complete the extension installation.
 
@@ -30,8 +47,8 @@ In the menu “File” you will see new menu item “Show Me Database Password�
 ## Extension for Oracle JDeveloper 12c (version: 12.x)
 
 ### Download and Install
-Download the latest version: [1.0.0](http://show-me-password.tomecode.com) of the extension for Oracle SQL Developer 4.x, to your machine (the extension will be packaged as a zip file - pls. don't unzip the extension;) ).
-- Download the extension to your machine (the extension will be packaged as a zip file - pls. don't unzip the extension;) ).
+Download the latest version: [1.0.0](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/show-me-password-sql-developer/ShowMePasswordJDeveloper12.zip) of the extension for Oracle JDeveloper, to your machine.
+- Download the extension to your machine (the extension is packaged as a zip file - pls. don't unzip the extension).
 - In JDeveloper use the help->check for updates and instead of choosing from the existing update centers choose the "Install From Local File" option, and point to the zip file you have downloaded
 - Restart JDeveloper to complete the extension installation.
 
@@ -43,7 +60,7 @@ If you click menu item "File->Show Me Password", then displays a window that con
 [Show Me Password](http://show-me-password.tomecode.com)
 
 ### Download and Install
-- Download the latest version: [1.0.0](http://show-me-password.tomecode.com) of the extension for Oracle JDeveloper 11.x to your machine.
+- Download the latest version: [1.0.0](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/show-me-password-sql-developer/ShowMePasswordJDeveloper11g.zip) of the extension for Oracle JDeveloper 11.x to your machine.
 - Unzip downloaded extension and copy it to $JDEVELOPER_HOME_11g/jdeveloper/jdev/extensions/
 - Restart JDeveloper to complete the extension installation.
 
@@ -51,4 +68,4 @@ If you click menu item "File->Show Me Password", then displays a window that con
 If you click menu item "File->Show Me Password", then displays a window that contains a table (with columns: connection type, connection name, user name and decrypted (saved) password to database) with list of all stored connections in JDeveloper. 
 
 
-### Note: If the extension does not work then remove the folder: system_cache from the application directory: `/SQL Developer/system*/system_cache` e.g.: in windows: `C:\Users\<user>\AppData\Roaming\SQL Developer\system<versonNumber>\system_cache`
+## Note: If the extension does not work then remove the folder: system_cache from the application directory: `/SQL Developer/system*/system_cache` e.g.: in windows: `C:\Users\<user>\AppData\Roaming\SQL Developer\system<versonNumber>\system_cache`
