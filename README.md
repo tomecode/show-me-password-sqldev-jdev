@@ -10,7 +10,7 @@ For more information about the project, visit the official website [Show Me Pass
 - Restart SQL Developer to complete the extension installation.
 
 #### How to use
-If you click menu "Show Me Password", then displays a window that contains a table (with columns: connection name,db host, SID, user name and decrypted (saved) password to database) with list of all stored connections to databases in SQL Developer. 
+If you click on the menu: "File"->"Show password" a window will appear that contains a table (with columns: connection name,db host, SID, user name and decrypted (saved) password to database) with list of all stored connections to databases in SQL Developer. 
 
 #### Note: If the extension does not work then remove the folder: system_cache from the application directory: `/SQL Developer/system*/system_cache` e.g.: in windows: `C:\Users\<user>\AppData\Roaming\SQL Developer\system<versonNumber>\system_cache` and restart Oracle SQL Developer
 
@@ -23,7 +23,7 @@ If you click menu "Show Me Password", then displays a window that contains a tab
 - Restart SQL Developer to complete the extension installation.
 
 #### How to use
-If you click menu "Show Me Password", then displays a window that contains a table (with columns: connection name,db host, SID, user name and decrypted (saved) password to database) with list of all stored connections to databases in SQL Developer. 
+If you click on the menu: "File"->"Show password" a window will appear that contains a table (with columns: connection name,db host, SID, user name and decrypted (saved) password to database) with list of all stored connections to databases in SQL Developer. 
 
 #### Note: If the extension does not work then remove the folder: system_cache from the application directory: `/SQL Developer/system*/system_cache` e.g.: in windows: `C:\Users\<user>\AppData\Roaming\SQL Developer\system<versonNumber>\system_cache` and restart Oracle SQL Developer
 
@@ -49,7 +49,7 @@ Download the latest version: [1.0.0](https://storage.googleapis.com/google-code-
 - Restart JDeveloper to complete the extension installation.
 
 #### How to Use
-If you click menu item "File->Show Me Password", then displays a window that contains a table (with columns: connection type, connection name, user name and decrypted (saved) password to database) with list of all stored connections in JDeveloper.
+If you click on the menu: "File"->"Show password" a window will appear that contains a table (with columns: connection type, connection name, user name and decrypted (saved) password to database) with list of all stored connections in JDeveloper.
 
 
 ### Extension for Oracle JDeveloper 11g (version: 11.x)
@@ -60,4 +60,4 @@ If you click menu item "File->Show Me Password", then displays a window that con
 - Restart JDeveloper to complete the extension installation.
 
 #### How to Use
-If you click menu item "File->Show Me Password", then displays a window that contains a table (with columns: connection type, connection name, user name and decrypted (saved) password to database) with list of all stored connections in JDeveloper. 
+If you click on the menu: "File"->"Show password" a window will appear that contains a table (with columns: connection type, connection name, user name and decrypted (saved) password to database) with list of all stored connections in JDeveloper. 
