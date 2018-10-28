@@ -5,10 +5,9 @@ For more information about the project, visit the official website [Show Me Pass
 ## Extension for Oracle SQL Developer (version: 18.x)
 
 #### Download and Install
-- Download the latest version: [2.0.0](https://github.com/tomecode/show-me-password-sqldev-jdev/releases/download/untagged-1bbd791c979034d0b712/ShowMePasswordSQLDeveloper-18c_v2.0.0.zip) of the extension for Oracle SQL Developer, to your machine, btw. the extension is packaged as a zip file - pls. don't unzip it.
+- Download the latest version: [2.0.0](https://github.com/tomecode/show-me-password-sqldev-jdev/releases/download/%2316/ShowMePasswordSQLDeveloper-18c_v2.0.0.zip) of the extension for Oracle SQL Developer, to your machine, btw. the extension is packaged as a zip file - pls. don't unzip it.
 - In SQL Developer, use/click to the menu item: Help->Check for updates... and instead of choosing from the existing update centers, choose the "Install From Local File" option, and point to the zip file you have downloaded.
 - Restart SQL Developer to complete the extension installation.
-
 
 #### How to use
 If you click on the menu: "File"->"Show password" a window will appear that contains a table (with columns: connection name,db host, SID, user name and decrypted (saved) password to database) with list of all stored connections to databases in SQL Developer. 
