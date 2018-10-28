@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.tomecode.showme.password.sqldeveloper
+Export-Package: com.tomecode.showme.password.sqldeveloper
+Bundle-Version: 1.0.0
+Bundle-ClassPath: .
+Require-Bundle: oracle.ide,oracle.ide.gallery,oracle.icons,oracle.java
+ tools,oracle.jdeveloper.db.connection,oracle.db-ca,oracle.javatools-n
+ odeps
+Bundle-ManifestVersion: 2
