@@ -3,6 +3,8 @@
 For more information about the project, visit the official website [Show Me Password](http://show-me-password.tomecode.com/) or 
 
 ## Extension for Oracle SQL Developer (versions: 18/19/21/23/...)
+![image](https://github.com/tomecode/show-me-password-sqldev-jdev/assets/6022988/27e9ae96-59b2-4fcd-b0f7-539d57e9adcd)
+
 
 #### Download and Install
 - Download the latest version: [2.0.0](https://github.com/tomecode/show-me-password-sqldev-jdev/releases/download/%2316/ShowMePasswordSQLDeveloper-18c_v2.0.0.zip) of the extension for Oracle SQL Developer, to your machine, btw. the extension is packaged as a zip file - pls. don't unzip it.
